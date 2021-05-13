@@ -1,0 +1,56 @@
+body {
+	background-image: url(bg2.jpg);
+	background-repeat: no-repeat;
+	background-clip: border-box;
+	background-position: top;
+	background-attachment: fixed;
+	/* background: white; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+body::before {
+	background-color: black;
+	opacity: 0.6;
+	content: "";
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	/* opacity: 0.2; */
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		background-image: url(bg4.jpg);
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-attachment: fixed;
+		/* background: white; */
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 100vh;
+	}
+}
+@media only screen and (max-width: 780px) {
+	body {
+		background-image: url(bg3.jpg);
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-attachment: fixed;
+		/* background: white; */
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 100vh;
+	}
+}

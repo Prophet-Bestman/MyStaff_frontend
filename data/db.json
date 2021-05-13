@@ -1,0 +1,18 @@
+{
+  "staff": [
+    {
+      "firstName": "Prophet Bestman",
+      "lastName": "Ogwuche",
+      "email": "prophetogwuche@gmail.com",
+      "age": "21",
+      "country": "Nigeria",
+      "stateOfOrigin": "Benue",
+      "level": "11",
+      "salary": "250000",
+      "birthday": "2000-04-13",
+      "position": "Lead Developer",
+      "department": "Tech/Development",
+      "id": 1
+    }
+  ]
+}
